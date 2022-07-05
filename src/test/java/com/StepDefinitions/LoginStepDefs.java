@@ -93,6 +93,7 @@ public class LoginStepDefs {
         loginTest.resetPassword.click();
 
         Assert.assertTrue(Driver.get().getTitle().contains("Reset password"));
+        // This is only a comment
     }
 
 
